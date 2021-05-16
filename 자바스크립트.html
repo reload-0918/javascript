@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <input type="button" onclick="alert('안녕하세요')" value="장지" />
+
+        <script type="text/javascript">
+            a = 2;
+            var a = 1;
+            var b = '안녕안녕', c = '안녕하세요' 
+            alert(a + b + c );
+            alert("b");
+            alert('c');
+            alert(2-7);//alert팝업.
+            prompt('아이디.');//prompt 사용자한테 정보를 입력받음
+            console.log(4/2)//로그기록
+            Math.pow(2,2)//제곱계산
+            alert('Hello world');
+            alert("Hello\'s \n world");//주석 팝업창 \역슬레시뒤 문자하나는 정보로해석 //\n은 줄바꿈
+            typeof "1"//문자인지 숫자인지 구분
+            "안녕하세요".length //문자의 갯수파악
+            "안녕하세요".indexOf("하")//찾은문자의순번 0부터시작
+            alert (1===1);//대입연산자 =   //비교연산자 == //비교연산자 === 정확한 일치
+            var a = null;
+           
+            alert(null == undefined);       //true
+            alert(null === undefined);      //false
+            alert(true == 1);               //true
+            alert(true === 1);              //false
+            alert(true == '1');             //true
+            alert(true === '1');            //false
+            alert(0 === -0);                //true
+            alert(NaN === NaN);             //false 0/0=NaN
+            //https://dorey.github.io/JavaScript-Equality-Table/
+            //!=
+            alert(1!=2);            //true
+            alert(1!=1);            //false
+            alert("one"!="two");    //true
+            alert("one"!="one");    //false
+            //>
+            alert(10>20);   //false
+            alert(10>1);    //true
+            alert(10>10);   //false
+            //>=
+            alert(10>=20);      //false
+            alert(10>=1);       //true
+            alert(10>=10);      //true
+
+            //ex 1)
+            if(false){
+                alert(1);
+            } else if(true){
+                alert(2);
+            } else if(true){
+                alert(3);
+            } else {
+                alert(4);
+            }
+
+        </script>
+    </body>
+</html>
